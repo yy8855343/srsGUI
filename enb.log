@@ -1,0 +1,128 @@
+
+
+07:40:02.682168 [PHY0] [I] [00000] Worker 0 configured cell 50 PRB
+07:40:02.839401 [PHY1] [I] [00000] Worker 0 configured cell 50 PRB
+07:40:02.847614 [MAC ] [I] [00000] Resetting MAC
+07:40:02.848278 [RRC ] [I] Allocating 2 PRBs for PUCCH
+07:40:02.852480 [GTPU] [E] Failed to bind on address 172.17.0.2, port 2152
+07:40:02.852465 [S1AP] [I] Connecting to MME 172.17.0.2:36412
+07:40:02.852648 [S1AP] [I] SCTP socket established with MME
+07:40:02.852766 [S1AP] [I] Sending s1SetupRequest
+             0000: 00 11 00 2d 00 00 04 00 3b 00 08 00 00 f1 10 00 
+             0010: 00 19 b0 00 3c 40 0a 03 80 73 72 73 65 6e 62 30 
+07:40:02.853152 [S1AP] [I] Received S1AP PDU
+             0000: 20 11 00 25 00 00 03 00 3d 40 0a 03 80 73 72 73 
+             0010: 6d 6d 65 30 31 00 69 00 0b 00 00 00 f1 10 00 00 
+07:40:02.853189 [S1AP] [I] Received S1SetupResponse
+07:40:03.311281 [PHY0] [I] [00000] Starting RX/TX thread nof_prb=50, sf_len=11520
+07:40:03.720682 [RF  ] [W] Late
+07:40:06.979921 [RF  ] [W] Late
+07:40:07.187990 [RF  ] [W] Late
+07:40:07.319863 [RF  ] [W] Late
+07:40:07.527590 [RF  ] [W] Late
+07:40:07.659315 [RF  ] [W] Late
+07:40:08.275204 [RF  ] [W] Late
+07:40:08.407017 [RF  ] [W] Late
+07:40:08.614910 [RF  ] [W] Late
+07:40:08.747669 [RF  ] [W] Late
+07:40:09.361973 [RF  ] [W] Late
+07:40:09.364618 [RF  ] [W] Late
+07:40:09.495558 [RF  ] [W] Late
+07:40:09.704160 [RF  ] [W] Late
+07:40:09.772312 [RF  ] [W] Late
+07:40:09.980174 [RF  ] [W] Late
+07:40:10.095917 [RF  ] [W] Late
+07:40:10.303494 [RF  ] [W] Late
+07:40:10.424018 [RF  ] [W] Late
+07:40:45.915113 [RF  ] [W] Late
+07:41:30.849767 [PHY0] [I] [05201] PRACH: 0/1, preamble=9, offset=13.3 us, peak2avg=346.7, max_offset=30.0 us
+07:41:30.857012 [MAC ] [I] [05216] SCHED: Added user rnti=0x46
+07:41:30.857107 [MAC ] [I] [05216] SCHED: Set bearer config lc_id=0, direction=3
+07:41:30.857296 [RRC ] [I] Added new user rnti=0x46
+07:41:30.857309 [MAC ] [I] [05216] RACH:  tti=5201, preamble=9, offset=13, temp_crnti=0x46
+07:41:30.857536 [MAC ] [I] [05213] SCHED: RAR, ra_id=0, rnti=0x46, rarnti_idx=2, start_rb=0, n_rb=3, rar_grant_rba=102, rar_grant_mcs=0
+07:41:30.857597 [PHY0] [I] [05209] PDCCH: DL DCI Format1A rnti=0x2, cce_index=0, L=4, tti_tx_dl=5213
+07:41:30.857614 [PHY0] [I] [05209] PDSCH: rnti=0x2, l_crb= 3, rb_start=0, harq=0, tti_tx_dl=5213, tx_scheme=Single, TB0: tbs=7, mcs=0, rv=0
+             0000: 49 01 a0 cc 0c 00 46 
+07:41:30.859599 [MAC ] [I] [05219] SCHED: RAR tx rnti=0x46, pid=3, dci=0,0, grant=(2,5), n_rtx=0, tbs=7, bsr=0 (0-7)
+07:41:30.867657 [PHY0] [I] [05219] PUSCH: rnti=0x46, prb=(2,5), tbs=7, mcs=0, rv=0, snr=-0.1 dB, n_iter=4, crc=KO, dec_time=  64 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.867722 [MAC ] [I] [05227] SCHED: UL retx rnti=0x46, pid=3, dci=3,16, grant=(2,5), n_rtx=1, tbs=7, bsr=0 (0-7)
+07:41:30.867763 [PHY0] [I] [05219] PDCCH: UL DCI Format0  rnti=0x46, cce_index=16, L=8, tpc=1, tti_tx_dl=5223
+07:41:30.867777 [PHY0] [I] [05219] PHICH: rnti=0x46, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5223
+07:41:30.875611 [PHY0] [I] [05227] PUSCH: rnti=0x46, prb=(2,5), tbs=7, mcs=0, rv=2, snr=0.2 dB, n_iter=4, crc=KO, dec_time=  49 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.875682 [MAC ] [I] [05235] SCHED: UL retx rnti=0x46, pid=3, dci=3,8, grant=(2,5), n_rtx=2, tbs=7, bsr=0 (0-7)
+07:41:30.875723 [PHY0] [I] [05227] PDCCH: UL DCI Format0  rnti=0x46, cce_index=8, L=8, tpc=1, tti_tx_dl=5231
+07:41:30.875738 [PHY0] [I] [05227] PHICH: rnti=0x46, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5231
+07:41:30.879760 [PHY0] [I] [05231] PRACH: 0/1, preamble=10, offset=12.4 us, peak2avg=370.2, max_offset=30.0 us
+07:41:30.883593 [MAC ] [I] [05231] SCHED: Added user rnti=0x47
+07:41:30.883668 [MAC ] [I] [05231] SCHED: Set bearer config lc_id=0, direction=3
+07:41:30.883933 [RRC ] [I] Added new user rnti=0x47
+07:41:30.883949 [MAC ] [I] [05231] RACH:  tti=5231, preamble=10, offset=12, temp_crnti=0x47
+07:41:30.884400 [MAC ] [I] [05236] SCHED: RAR, ra_id=0, rnti=0x47, rarnti_idx=2, start_rb=0, n_rb=3, rar_grant_rba=102, rar_grant_mcs=0
+07:41:30.884478 [PHY1] [I] [05232] PDCCH: DL DCI Format1A rnti=0x2, cce_index=4, L=4, tti_tx_dl=5236
+07:41:30.884496 [PHY1] [I] [05232] PDSCH: rnti=0x2, l_crb= 3, rb_start=0, harq=0, tti_tx_dl=5236, tx_scheme=Single, TB0: tbs=7, mcs=0, rv=0
+             0000: 4a 01 80 cc 0c 00 47 
+07:41:30.885060 [MAC ] [I] [05242] SCHED: RAR tx rnti=0x47, pid=2, dci=0,0, grant=(2,5), n_rtx=0, tbs=7, bsr=0 (0-7)
+07:41:30.885544 [PHY0] [I] [05235] PUSCH: rnti=0x46, prb=(2,5), tbs=7, mcs=0, rv=3, snr=0.2 dB, n_iter=4, crc=KO, dec_time= 160 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.885606 [MAC ] [I] [05243] SCHED: UL retx rnti=0x46, pid=3, dci=3,8, grant=(2,5), n_rtx=3, tbs=7, bsr=0 (0-7)
+07:41:30.885649 [PHY0] [I] [05235] PDCCH: UL DCI Format0  rnti=0x46, cce_index=8, L=8, tpc=1, tti_tx_dl=5239
+07:41:30.885664 [PHY0] [I] [05235] PHICH: rnti=0x46, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5239
+07:41:30.887196 [RF  ] [W] Late
+07:41:30.891814 [PHY1] [I] [05242] PUSCH: rnti=0x47, prb=(2,5), tbs=7, mcs=0, rv=0, snr=-0.2 dB, n_iter=4, crc=KO, dec_time=  48 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.891890 [MAC ] [I] [05250] SCHED: UL retx rnti=0x47, pid=2, dci=3,24, grant=(2,5), n_rtx=1, tbs=7, bsr=0 (0-7)
+07:41:30.891931 [PHY1] [I] [05242] PDCCH: UL DCI Format0  rnti=0x47, cce_index=24, L=8, tpc=1, tti_tx_dl=5246
+07:41:30.891948 [PHY1] [I] [05242] PHICH: rnti=0x47, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5246
+07:41:30.892742 [PHY0] [I] [05243] PUSCH: rnti=0x46, prb=(2,5), tbs=7, mcs=0, rv=1, snr=0.3 dB, n_iter=4, crc=KO, dec_time=  50 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.892768 [MAC ] [W] [05243] SCHED: discarting TB 0 pid=3, tti=5243, maximum number of retx exceeded (4)
+07:41:30.892795 [PHY0] [I] [05243] PHICH: rnti=0x46, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5247
+07:41:30.897744 [RRC ] [W] User rnti=0x46 expired RRCConnectionSetup deadline: 0:40039>0:40000 us
+07:41:30.897783 [RRC ] [I] User rnti=0x46 timed out. Exists in s1ap=no
+07:41:30.897918 [RRC ] [I] Disconnecting rnti=0x46.
+07:41:30.897954 [PHY1] [E] [05248] Removing user: rnti=0x46 does not exist
+07:41:30.898101 [MAC ] [I] [05256] User rnti=0x46 removed from MAC/PHY
+07:41:30.898136 [RRC ] [I] Removed user rnti=0x46
+07:41:30.899822 [PHY1] [I] [05250] PUSCH: rnti=0x47, prb=(2,5), tbs=7, mcs=0, rv=2, snr=-1.1 dB, n_iter=4, crc=KO, dec_time=  63 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.899864 [MAC ] [I] [05258] SCHED: UL retx rnti=0x47, pid=2, dci=3,8, grant=(2,5), n_rtx=2, tbs=7, bsr=0 (0-7)
+07:41:30.899900 [PHY1] [I] [05250] PDCCH: UL DCI Format0  rnti=0x47, cce_index=8, L=8, tpc=1, tti_tx_dl=5254
+07:41:30.899911 [PHY1] [I] [05250] PHICH: rnti=0x47, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5254
+07:41:30.907763 [PHY1] [I] [05258] PUSCH: rnti=0x47, prb=(2,5), tbs=7, mcs=0, rv=3, snr=-0.9 dB, n_iter=4, crc=KO, dec_time=  57 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.907837 [MAC ] [I] [05266] SCHED: UL retx rnti=0x47, pid=2, dci=3,0, grant=(2,5), n_rtx=3, tbs=7, bsr=0 (0-7)
+07:41:30.907873 [PHY1] [I] [05258] PDCCH: UL DCI Format0  rnti=0x47, cce_index=0, L=8, tpc=1, tti_tx_dl=5262
+07:41:30.907885 [PHY1] [I] [05258] PHICH: rnti=0x47, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5262
+07:41:30.915823 [PHY1] [I] [05266] PUSCH: rnti=0x47, prb=(2,5), tbs=7, mcs=0, rv=1, snr=-1.3 dB, n_iter=4, crc=KO, dec_time=  76 us
+             0000: 00 00 00 00 00 00 00 
+07:41:30.915881 [MAC ] [W] [05266] SCHED: discarting TB 0 pid=2, tti=5266, maximum number of retx exceeded (4)
+07:41:30.915973 [PHY1] [I] [05266] PHICH: rnti=0x47, hi=0, I_lowest=2, n_dmrs=0, tti_tx_dl=5270
+07:41:30.927861 [RRC ] [W] User rnti=0x47 expired RRCConnectionSetup deadline: 0:44159>0:40000 us
+07:41:30.927903 [RRC ] [I] User rnti=0x47 timed out. Exists in s1ap=no
+07:41:30.927979 [RRC ] [I] Disconnecting rnti=0x47.
+07:41:30.928013 [PHY0] [E] [05277] Removing user: rnti=0x47 does not exist
+07:41:30.928186 [MAC ] [I] [05286] User rnti=0x47 removed from MAC/PHY
+07:41:30.928250 [RRC ] [I] Removed user rnti=0x47
+07:42:06.983828 [RF  ] [W] Late
+07:42:07.191521 [RF  ] [W] Late
+07:42:07.323279 [RF  ] [W] Late
+07:42:07.938715 [RF  ] [W] Late
+07:42:08.071426 [RF  ] [W] Late
+07:42:08.279648 [RF  ] [W] Late
+07:42:08.411233 [RF  ] [W] Late
+07:42:08.619798 [RF  ] [W] Late
+07:42:08.751572 [RF  ] [W] Late
+07:42:09.367543 [RF  ] [W] Late
+07:42:09.499354 [RF  ] [W] Late
+07:42:09.707954 [RF  ] [W] Late
+07:42:09.776058 [RF  ] [W] Late
+07:42:10.391592 [RF  ] [W] Late
+07:42:10.507424 [RF  ] [W] Late
+07:42:10.715057 [RF  ] [W] Late
+07:42:10.831405 [RF  ] [W] Late
+07:42:49.360106 [RF  ] [W] Late
+07:42:49.946642 [RRC ] [W] Discarding PDU for removed rnti=0x0
+Closing log
