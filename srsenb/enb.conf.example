@@ -27,7 +27,7 @@ mnc = 01
 mme_addr = 172.17.0.2
 gtp_bind_addr = 172.17.0.2
 s1c_bind_addr = 172.17.0.2
-n_prb = 50
+n_prb = 59
 #tm = 4
 #nof_ports = 2
 
