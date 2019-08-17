@@ -441,7 +441,7 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
     }
   } else {
     printf("-----------------------Cannot find args---------------------\n");
-    strcpy(args,",");
+    strcpy(args,"");
   }
 
 #if HAVE_ASYNC_THREAD
