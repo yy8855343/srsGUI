@@ -386,7 +386,7 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
     // config file
     const char config_arg[] = "config=";
     char config_str[64] = {0};
-    printf("----------------------- 1 ---------------------, %s\n", args);
+    printf("----------------------- 1 ---------------------, '%s'\n", args);
     char *config_ptr = strstr(args, config_arg);
     if (config_ptr) {
       copy_subdev_string(config_str, config_ptr + strlen(config_arg));
@@ -441,6 +441,7 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
     }
   } else {
     printf("-----------------------Cannot find args---------------------\n");
+    strcpy(args,",");
   }
 
 #if HAVE_ASYNC_THREAD
