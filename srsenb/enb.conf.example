@@ -20,7 +20,7 @@
 [enb]
 enb_id = 0x19B
 cell_id = 0x01
-phy_cell_id = 99
+phy_cell_id = 1
 tac = 0x0007
 mcc = 001
 mnc = 01
