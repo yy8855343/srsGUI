@@ -118,7 +118,7 @@ filename = /tmp/enb.log
 file_max_size = -1
 
 [gui]
-enable = false
+enable = true
 
 #####################################################################
 # Scheduler configuration options
