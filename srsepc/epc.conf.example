@@ -21,7 +21,7 @@ mme_group = 0x0001
 tac = 0x0007
 mcc = 001
 mnc = 01
-mme_bind_addr = 127.0.1.100
+mme_bind_addr = 172.17.0.2
 apn = srsapn
 dns_addr = 8.8.8.8
 
@@ -45,8 +45,8 @@ db_file = user_db.csv
 #####################################################################
 
 [spgw]
-gtpu_bind_addr=127.0.1.100
-sgi_if_addr=172.16.0.1
+gtpu_bind_addr=172.17.0.2
+sgi_if_addr=172.17.0.2
 
 ####################################################################
 # Log configuration
