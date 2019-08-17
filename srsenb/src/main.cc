@@ -192,7 +192,7 @@ void parse_args(all_args_t *args, int argc, char* argv[]) {
         "enables mbms in the enodeb")
 
     ("expert.print_buffer_state",
-        bpo::value<bool>(&args->expert.print_buffer_state)->default_value(false),
+        bpo::value<bool>(&args->expert.print_buffer_state)->default_value(true),
        "Prints on the console the buffer state every 10 seconds")
 
     ("rf_calibration.tx_corr_dc_gain",  bpo::value<float>(&args->rf_cal.tx_corr_dc_gain)->default_value(0.0),  "TX DC offset gain correction")
@@ -424,6 +424,7 @@ int main(int argc, char *argv[])
       if (cnt==1000) {
         cnt=0;
         enb->print_pool();
+        printf("cnt = 0\n");
       }
     }
     usleep(10000);
