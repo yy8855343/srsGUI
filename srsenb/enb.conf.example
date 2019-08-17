@@ -159,6 +159,7 @@ nof_ctrl_symbols = 3
 #rrc_inactivity_timer = 60000
 #max_prach_offset_us  = 30
 #enable_mbsfn = false
+print_buffer_state    = true
 
 #####################################################################
 # Manual RF calibration
