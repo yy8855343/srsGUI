@@ -1,5 +1,7 @@
 #/bin/bash
 srsLTE_HOME=/home/ubuntu/Desktop/srsLTE
+srsLTE_HOME=/root/Software/srsLTE
+
 #cd $srsLTE_HOME/srsenb
 
 #mkdir /root/.srs 
