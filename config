@@ -1,15 +1,16 @@
 #/bin/bash
-#cd /root/Software/srsLTE/srsenb
+srsLTE_HOME=/home/ubuntu/Desktop/srsLTE
+#cd $srsLTE_HOME/srsenb
 
 #mkdir /root/.srs 
-cp /root/Software/srsLTE/srsenb/enb.conf.example /root/.srs/enb.conf
-cp /root/Software/srsLTE/srsenb/sib.conf.example /root/.srs/sib.conf
-cp /root/Software/srsLTE/srsenb/rr.conf.example /root/.srs/rr.conf
-cp /root/Software/srsLTE/srsenb/drb.conf.example  /root/.srs/drb.conf
+cp $srsLTE_HOME/srsenb/enb.conf.example /root/.srs/enb.conf
+cp $srsLTE_HOME/srsenb/sib.conf.example /root/.srs/sib.conf
+cp $srsLTE_HOME/srsenb/rr.conf.example /root/.srs/rr.conf
+cp $srsLTE_HOME/srsenb/drb.conf.example  /root/.srs/drb.conf
 
-#cd /root/Software/srsLTE/srsue
-cp /root/Software/srsLTE/srsue/ue.conf.example /root/.srs/ue.conf
+#cd $srsLTE_HOME/srsue
+cp $srsLTE_HOME/srsue/ue.conf.example /root/.srs/ue.conf
 #cd 
-cp /root/Software/srsLTE/srsepc/epc.conf.example /root/.srs/epc.conf
-cp /root/Software/srsLTE/srsepc/user_db.csv.example /root/.srs/user_db.csv
-cp /root/Software/srsLTE/srsepc/mbms.conf.example /root/.srs/mbms.conf
+cp $srsLTE_HOME/srsepc/epc.conf.example /root/.srs/epc.conf
+cp $srsLTE_HOME/srsepc/user_db.csv.example /root/.srs/user_db.csv
+cp $srsLTE_HOME/srsepc/mbms.conf.example /root/.srs/mbms.conf
