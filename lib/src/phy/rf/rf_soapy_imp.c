@@ -386,7 +386,7 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
     // config file
     const char config_arg[] = "config=";
     char config_str[64] = {0};
-    printf("----------------------- 1 . 1 ---------------------\n");
+    printf("----------------------- 1 ---------------------, %s\n", args);
     char *config_ptr = strstr(args, config_arg);
     if (config_ptr) {
       copy_subdev_string(config_str, config_ptr + strlen(config_arg));
@@ -439,6 +439,8 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
       remove_substring(args, loglevel_arg);
       remove_substring(args, loglevel_str);
     }
+  } else {
+    printf("-----------------------Cannot find args---------------------\n");
   }
 
 #if HAVE_ASYNC_THREAD
@@ -448,6 +450,7 @@ int rf_soapy_open_multi(char *args, void **h, uint32_t nof_rx_antennas)
     REMOVE_SUBSTRING_WITHCOMAS(args, "silent");
     start_async_thread = false;
   }
+  printf("-----------------------5 -- end ---------------------\n");
 #endif
 
   // receive one subframe to allow for transceiver calibration
