@@ -131,7 +131,7 @@ imei = 353490069873319
 #force_imsi_attach = false
 
 [gui]
-enable = false
+enable = true
 
 #####################################################################
 # Expert configuration options
