@@ -419,14 +419,14 @@ int main(int argc, char *argv[])
   }
   int cnt=0;
   while (running) {
-    if (args.expert.print_buffer_state) {
+    // if (args.expert.print_buffer_state) {
       cnt++;
       if (cnt==1000) {
         cnt=0;
         enb->print_pool();
         printf("cnt = 0\n");
       }
-    }
+    // }
     usleep(10000);
   }
   pthread_cancel(input);
