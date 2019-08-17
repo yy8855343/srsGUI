@@ -3,7 +3,7 @@ git pull origin master
 
 #cd /root/Software/srsLTE/srsenb
 
-mkdir /root/.srs
+#mkdir /root/.srs 
 cp /root/Software/srsLTE/srsenb/enb.conf.example /root/.srs/enb.conf
 cp /root/Software/srsLTE/srsenb/sib.conf.example /root/.srs/sib.conf
 cp /root/Software/srsLTE/srsenb/rr.conf.example /root/.srs/rr.conf
